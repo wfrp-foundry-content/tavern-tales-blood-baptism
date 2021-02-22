@@ -1,0 +1,39 @@
+{
+  "name": "tavern-tales-adventures-wfrp",
+  "title": "Tavern Tales WFRP4e Adventures",
+  "description": "<p>This module provides a transformation of Tavern Tales - Blood Baptism from D&D5e to WFRP4e. Tavern Tales is a collection of one-shot adventures for the 5th edition game system from Tavern Tales, who create high-quality adventures with gorgeous battlemaps made available every month. Converted by Vindico#9012 for WFRP4e.</p>",
+  "version": "1.0.0",
+  "minimumCoreVersion": "0.6.6",
+  "compatibleCoreVersion": "0.7.9",
+  "author": "Tavern Tales produced by KingSillyGoose#1901 (Patreon: https://www.patreon.com/taverntalesmaps). Adapted for WFRP4e by Vindico#9013",
+  "esmodules": ["scripts/importer.mjs"],
+  "packs": [
+    {
+      "label": "Tavern Tales WFRP4e - Journal",
+      "entity": "JournalEntry",
+      "name": "journal-wfrp4e",
+      "path": "packs/tavern-tales-wfrp4e-journal.db"
+    },
+    {
+      "label": "Tavern Tales WFRP4e - Scenes",
+      "entity": "Scene",
+      "name": "scenes-wfrp4e",
+      "path": "packs/tavern-tales-wfrp4e-scenes.db"
+      
+    },
+    {
+      "label": "Tavern Tales WFRP4e - Actors",
+      "entity": "Actor",
+      "name": "actors-wfrp4e",
+      "path": "packs/tavern-tales-wfrp4e-actors.db"
+     
+    },
+    {
+      "label": "Tavern Tales WFRP4e - Trappings",
+      "entity": "Item",
+      "name": "trappings-wfrp4e",
+      "path": "packs/tavern-tales-wfrp4e-trappings.db"
+     
+    }
+  ]
+}
