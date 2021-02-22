@@ -33,7 +33,9 @@
       "entity": "Item",
       "name": "trappings-wfrp4e",
       "path": "packs/tavern-tales-wfrp4e-trappings.db"
-     
     }
-  ]
+  ],
+  "url": "https://github.com/wfrp-foundry-content/tavern-tales-blood-baptism",
+  "manifest": "https://raw.githubusercontent.com/wfrp-foundry-content/tavern-tales-blood-baptism/main/module.json",
+  "download": "https://github.com/wfrp-foundry-content/tavern-tales-blood-baptism/archive/master.zip"
 }
